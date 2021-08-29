@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+}
+nav{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgb(78, 67, 67);
+    padding: 20px;
+    font-size: 1rem;
+    /* background-color: black; */
+}
+.container{
+    height: 100vh;
+    /* background-color: black; */
+}
+.container img{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    object-fit:cover ;
+    z-index: -1;
+}
+.main-title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 3rem;
+    transform: translate(-50%,-30%);
+    color: rgb(252, 252, 252);
+}
+.content{
+    width: 100%;
+    background-color: black;
+    min-height: 100vh;
+    z-index: 2;
+    color: white;
+}
+.content-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    min-height: 65vh;
+}
+.text{
+    padding: 2rem 20rem;
+    font-size: 1.1rem;
+}
+.img1{
+    background-image: url("assets/switzleft.png");
+    width: 40vw;
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 15px;
+    margin-top:5rem;
+    position: relative;
+    box-shadow: 0px 1px 8px rgb(71, 65, 65);
+}
+.img2{
+    background-image: url("assets/switzright.png");
+    width: 40vw;
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 15px;
+    margin-top:5rem;
+    position: relative;
+    box-shadow:  0px 1px 7px rgb(71, 65, 65);
+   
+}
+.discription{
+    color: rgb(77, 65, 65);
+    position: absolute;
+    top:88%;
+    left: 30%;
+
+}
+/* h2{
+    color: rgb(77, 60, 60);
+    transform: translate(35rem);
+    position: absolute;
+    bottom: -95%;
+    transform: translateX(5rem); 
+}*/
